@@ -1,0 +1,20 @@
+{
+  "name": "decaf-2018",
+  "version": "1.0.0",
+  "description": "Disciplines in Engineering Career Fair",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UCSDTESC/DECaF-2018.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UCSDTESC/DECaF-2018/issues"
+  },
+  "homepage": "https://github.com/UCSDTESC/DECaF-2018#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
+}
