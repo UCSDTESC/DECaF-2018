@@ -1,0 +1,22 @@
+.hero {
+  width: 100%;
+  background: $decaf-gradient;
+  color: $hero-font-color;
+
+  @include media-breakpoint-up(md) {
+    min-height: 30rem;
+  }
+
+  &__logo {
+    width: 10rem;
+    margin: 3rem 0 2rem;
+  }
+
+  &__location {
+    text-transform: uppercase;
+  }
+
+  &__date {
+    font-size: 0.9rem;
+  }
+}

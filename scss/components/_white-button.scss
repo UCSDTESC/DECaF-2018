@@ -1,0 +1,16 @@
+.white-button {
+  width: 10rem;
+  padding: 0.5rem 1rem;
+  margin: 1.5rem 0;
+  background: $white;
+  border: 1px solid $white;
+  border-radius: $border-radius;
+  color: $decaf-dark-blue;
+  transition: background 100ms linear, color 100ms linear;
+
+  &:hover {
+    cursor: pointer;
+    background: transparent;
+    color: $white;
+  }
+}

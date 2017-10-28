@@ -1,0 +1,27 @@
+.footer {
+  margin: 2rem 0 2rem;
+  color: $tesc-blue;
+
+  &__links {
+    list-style: none;
+  }
+
+  &__link {
+    color: $tesc-blue;
+  }
+
+  &__link-item {
+    &:not(:first-child) {
+      margin-top: 1rem;
+
+      @include media-breakpoint-up(md) {
+        margin-top: 0;
+      }
+    }
+    &--logo {
+      img {
+        width: 6rem;
+      }
+    }
+  }
+}
