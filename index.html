@@ -19,7 +19,7 @@
   <body>
     <section class="hero">
       <div class="container">
-        <nav class="nav flex-column flex-md-row align-items-center">
+        <nav class="nav flex-row align-items-md-center align-items-start">
           <div class="flex-row">
             <img class="nav__logo" src="assets/decaf-icon.svg" />
           </div>
@@ -40,8 +40,35 @@
               <a class="nav__link" href="#">Contact</a>
             </li>
           </ul>
+          <div class="flex-column ml-auto d-flex d-md-none">
+            <button class="navbar-toggler hamburger__toggler" type="button" data-toggle="collapse" data-target="#hamburgerMenu">
+              <span class="navbar-toggler-icon hamburger__toggle-icon"></span>
+            </button>
+          </div>
         </nav>
+      </div>
 
+      <div class="hamburger collapse flex-column" id="hamburgerMenu">
+        <ul class="hamburger__links">
+          <li class="hamburger__link-item">
+            <a class="hamburger__link" href="#">Home</a>
+          </li>
+          <li class="hamburger__link-item">
+            <a class="hamburger__link" href="#">About</a>
+          </li>
+          <li class="hamburger__link-item">
+            <a class="hamburger__link" href="#">Register</a>
+          </li>
+          <li class="hamburger__link-item">
+            <a class="hamburger__link" href="#">FAQ</a>
+          </li>
+          <li class="hamburger__link-item">
+            <a class="hamburger__link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+      
+      <div class="container">
         <div class="hero__feature row">
           <div class="hero__info text-center text-md-left col-md-6">
             <img class="hero__logo" src="assets/decaf-logo.svg" />
@@ -52,11 +79,11 @@
               January 18, 2017 // 9AM - 3PM
             </div>
             <div class="hero__cta">
-              <button class="white-button">Register</button>
+              <button href="#" class="white-button">Register</button>
             </div>
           </div>
 
-          <div class="hero__image text-center col-md-6">
+          <div class="hero__image text-center col-md-6 d-none d-md-block">
             <img class="hero__feature-image" src="#" />
           </div>
         </div>
@@ -75,6 +102,27 @@
     <section class="faq">
       <div class="container">
         <h1 class="faq__header">Frequently Asked Questions</h1>
+        <div class="accordian">
+          <input class="accordian__input" id="accordian-one" type="checkbox" name="faq">
+          <label class="accordian__label" for="accordian-one">Label One</label>
+          <div class="accordian__content">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, architecto, explicabo perferendis nostrum, maxime impedit atque odit sunt pariatur illo obcaecati soluta molestias iure facere dolorum adipisci eum? Saepe, itaque.
+          </div>
+        </div>
+        <div class="accordian">
+          <input class="accordian__input" id="accordian-two" type="checkbox" name="faq">
+          <label class="accordian__label" for="accordian-two">Label Two</label>
+          <div class="accordian__content">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, architecto, explicabo perferendis nostrum, maxime impedit atque odit sunt pariatur illo obcaecati soluta molestias iure facere dolorum adipisci eum? Saepe, itaque.
+          </div>
+        </div>
+        <div class="accordian">
+          <input class="accordian__input" id="accordian-three" type="checkbox" name="faq">
+          <label class="accordian__label" for="accordian-three">Label Three</label>
+          <div class="accordian__content">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, architecto, explicabo perferendis nostrum, maxime impedit atque odit sunt pariatur illo obcaecati soluta molestias iure facere dolorum adipisci eum? Saepe, itaque.
+          </div>
+        </div>
       </div>
     </section>
 

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Cabin:400,600|Work+Sans');
+@import 'bootstrap-overrides';
 @import '../node_modules/bootstrap/scss/bootstrap';
 
 $border-radius: 0.3rem;
@@ -19,3 +20,6 @@ $header-color: #5A5A5A;
 $hero-font-color: $white;
 
 $contact-underline: #FEEFAE;
+
+$faq-border-color: #E1E1E1;
+$faq-question-color: #78777C;
