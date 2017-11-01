@@ -18,7 +18,7 @@
     <![endif]-->
   </head>
   <body>
-    <section class="hero">
+    <section class="hero" id="hero">
       <div class="container">
         <nav class="nav flex-row align-items-md-center align-items-start">
           <div class="flex-row">
@@ -29,16 +29,16 @@
               <a class="nav__link" href="#">Home</a>
             </li>
             <li class="nav__link-item">
-              <a class="nav__link" href="#">About</a>
+              <a class="nav__link" href="#about">About</a>
             </li>
             <li class="nav__link-item">
-              <a class="nav__link" href="#">Register</a>
+              <a class="nav__link" href="#hero">Register</a>
             </li>
             <li class="nav__link-item">
-              <a class="nav__link" href="#">FAQ</a>
+              <a class="nav__link" href="#faq">FAQ</a>
             </li>
             <li class="nav__link-item">
-              <a class="nav__link" href="#">Contact</a>
+              <a class="nav__link" href="#contact">Contact</a>
             </li>
           </ul>
           <div class="flex-column ml-auto d-flex d-md-none">
@@ -55,16 +55,16 @@
             <a class="hamburger__link" href="#">Home</a>
           </li>
           <li class="hamburger__link-item">
-            <a class="hamburger__link" href="#">About</a>
+            <a class="hamburger__link" href="#about">About</a>
           </li>
           <li class="hamburger__link-item">
-            <a class="hamburger__link" href="#">Register</a>
+            <a class="hamburger__link" href="#hero">Register</a>
           </li>
           <li class="hamburger__link-item">
-            <a class="hamburger__link" href="#">FAQ</a>
+            <a class="hamburger__link" href="#faq">FAQ</a>
           </li>
           <li class="hamburger__link-item">
-            <a class="hamburger__link" href="#">Contact</a>
+            <a class="hamburger__link" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
@@ -80,7 +80,7 @@
               January 18, 2017 // 9AM - 3PM
             </div>
             <div class="hero__cta">
-              <button href="#" class="white-button">Register</button>
+              <a href="http://events.eventzilla.net/e/decaf-2018-disciplines-in-engineering-career-fair-at-university-of-california-san-diego-2138921054" class="white-button">Corporate Registration</a>
             </div>
           </div>
 
@@ -91,66 +91,97 @@
       </div>
     </section>
 
-    <section class="about">
+    <section class="about" id="about">
       <div class="container">
-        <h1 class="about__header">Exclusively for UCSD students and alumni.</h1>
+        <h1 class="about__header">What is DECaF?</h1>
         <p class="about__contents">
-          I can't be bothered writing all of that so I'm just going to write enough so that I can see what a paragraph looks like.
+            DECaF provides company representatives a unique opportunity to interact and engage with UC San Diego's talented engineering students regarding career options, internships, and permanent or summer employment opportunities
         </p>
       </div>
     </section>
 
-    <section class="faq">
+    <section class="faq" id="faq">
       <div class="container">
-        <h1 class="faq__header">Frequently Asked Questions</h1>
+        <h1 class="faq__header">Frequently Asked Questions <small>(for Companies)</small></h1>
         <div class="accordian">
           <input class="accordian__input" id="accordian-one" type="checkbox" name="faq">
-          <label class="accordian__label" for="accordian-one">Label One</label>
+          <label class="accordian__label" for="accordian-one">When and where is the career fair?</label>
           <div class="accordian__content">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, architecto, explicabo perferendis nostrum, maxime impedit atque odit sunt pariatur illo obcaecati soluta molestias iure facere dolorum adipisci eum? Saepe, itaque.
+            This year DECaF will happen on January 18th, 2018 and it will run from 9am-3pm. Please arrive early ~8am to set-up and check-in. DECaF is hosted in the Price Center Ballrooms East and West in the center of UCSD campus.
           </div>
         </div>
         <div class="accordian">
           <input class="accordian__input" id="accordian-two" type="checkbox" name="faq">
-          <label class="accordian__label" for="accordian-two">Label Two</label>
+          <label class="accordian__label" for="accordian-two">How do I register?</label>
           <div class="accordian__content">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, architecto, explicabo perferendis nostrum, maxime impedit atque odit sunt pariatur illo obcaecati soluta molestias iure facere dolorum adipisci eum? Saepe, itaque.
+            <ol>
+              <li>Please follow the link above</li>
+              <li>Choose the appropriate package of your choice and click register now</li>
+              <li>Fill in all the forms and complete the payment by paypal (please contact <a href="mailto:tiffany@tesc.ucsd.edu">tiffany@tesc.ucsd.edu</a> if you choose to pay by check)</li>
+              <li>You should receive a confirmation, if you did not receive a confirmation please email <a href="mailto:rtlin@tesc.ucsd.edu">rtlin@tesc.ucsd.edu</a> to troubleshoot the problem.</li>
+            </ol>
           </div>
         </div>
         <div class="accordian">
           <input class="accordian__input" id="accordian-three" type="checkbox" name="faq">
-          <label class="accordian__label" for="accordian-three">Label Three</label>
+          <label class="accordian__label" for="accordian-three">How do I pay?</label>
           <div class="accordian__content">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, architecto, explicabo perferendis nostrum, maxime impedit atque odit sunt pariatur illo obcaecati soluta molestias iure facere dolorum adipisci eum? Saepe, itaque.
+              You can choose to pay using paypal. Before using paypal make sure that your account is confirmed or the payment will not go through. If you did not receive a payment confirmation after using paypal, please email <a href="mailto:rtlin@tesc.ucsd.edu">rtlin@tesc.ucsd.edu</a> (please contact <a href="mailto:tiffany@tesc.ucsd.edu">tiffany@tesc.ucsd.edu</a> if you choose to pay by check)
+          </div>
+        </div>
+        <div class="accordian">
+          <input class="accordian__input" id="accordian-four" type="checkbox" name="faq">
+          <label class="accordian__label" for="accordian-four">Where do I send my company materials?</label>
+          <div class="accordian__content">
+              Please have your materials arrive at UC San Diego between January 8th - January 16th, and we will have your boxes waiting at your table when you arrive. We have two addresses, if you are shipping small packages use this address:<br/><br/>
+              
+              <span class="font-weight-bold">IDEA Engineering Student Center</span><br/>
+              University of California at San Diego<br/>
+              9500 Gilman Drive #0429<br/>
+              La Jolla, CA 92093<br/>
+              If you have large packages or a combination of the two, please send them to:<br/><br/>
+              
+              <span class="font-weight-bold">IDEA Engineering Student Center</span><br/>
+              #0429<br/>
+              7835 Trade St., Suite 100<br/>
+              San Diego, CA 92121<br/>
+              Both will add an additional 1-2 business days to delivery so please send them early!
+          </div>
+        </div>
+        <div class="accordian">
+          <input class="accordian__input" id="accordian-five" type="checkbox" name="faq">
+          <label class="accordian__label" for="accordian-five">How can I reserve private interview rooms?</label>
+          <div class="accordian__content">
+              We will provide private interview rooms for all the Corporate Sponsors, we will send out a form closer to the date for you to request them. In addition all companies can request private interview rooms by contacting UCSD Career Services Center and filling in the form on port triton.
           </div>
         </div>
       </div>
     </section>
 
-    <section class="contact">
+    <section class="contact" id="contact">
       <div class="container d-flex align-items-center h-100">
         <h1 class="contact__header m-auto">
-          <a class="contact__link" href="#">Let us know</a> if you have any 
+          <a class="contact__link" href="mailto:rtlin@tesc.ucsd.edu">Let us know</a> if you have any 
           other questions.</h1>
       </div>
     </section>
 
-    <footer class="footer">
+    <footer class="footer" id="footer">
       <div class="container">
           <ul class="footer__links flex-column ml-md-auto d-flex flex-md-row justify-content-between text-center text-md-left">
             <li class="footer__link-item">
               <a class="footer__link" href="#">Home</a></li>
             <li class="footer__link-item">
-              <a class="footer__link" href="#">About</a></li>
+              <a class="footer__link" href="#about">About</a></li>
             <li class="footer__link-item footer__link-item--logo">
               <a class="footer__link" href="//tesc.ucsd.edu" target="_new">
                 <img src="assets/tesc-logo.png" />
               </a>
             </li>
             <li class="footer__link-item">
-              <a class="footer__link" href="#">Register</a></li>
+              <a class="footer__link" href="#hero">Register</a></li>
             <li class="footer__link-item">
-              <a class="footer__link" href="#">FAQ</a></li>
+              <a class="footer__link" href="#faq">FAQ</a></li>
           </ul>
       </div>
     </footer>

@@ -5633,15 +5633,17 @@ h1 {
     height: 2rem; }
 
 .white-button {
-  width: 10rem;
+  min-width: 10rem;
   padding: 0.5rem 1rem;
   margin: 1.5rem 0;
   background: #fff;
   border: 1px solid #fff;
   border-radius: 0.3rem;
   color: #237EF1;
+  display: inline-block;
   transition: background 100ms linear, color 100ms linear; }
   .white-button:hover {
     cursor: pointer;
     background: transparent;
-    color: #fff; }
+    color: #fff;
+    text-decoration: none; }
