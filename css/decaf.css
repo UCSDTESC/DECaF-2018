@@ -5482,7 +5482,7 @@ h1 {
       content: "+"; }
     .accordian__input:checked ~ .accordian__content {
       max-height: 100rem;
-      padding: 2rem;
+      padding: 1.8rem 2rem;
       border-width: 2px;
       transition: max-height .35s, padding 0s, border-width 0s; }
     .accordian__input:checked + .accordian__label::after {
