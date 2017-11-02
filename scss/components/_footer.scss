@@ -9,6 +9,9 @@
 
   &__link {
     color: $tesc-blue;
+    &:hover {
+      text-decoration: none;
+    }
   }
 
   &__link-item {

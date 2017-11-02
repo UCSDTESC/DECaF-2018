@@ -16,8 +16,8 @@
 
     &:checked ~ .accordian__content {
       max-height: 100rem;
-      padding: 0.5rem 2rem;
-      border-width: 1px;
+      padding: 2rem;
+      border-width: 2px;
       transition: max-height .35s, padding 0s, border-width 0s;
     }
 
@@ -29,13 +29,14 @@
   &__label {
     position: relative;
     display: block;
-    padding: 0.25rem 0 0.25rem 2rem;
+    padding: 1rem 5rem 1rem 2rem;
     border-radius: $border-radius;
-    border: 1px solid $faq-border-color;
-    font-weight: bold;
-    line-height: 3;
+    border: 2px solid $faq-border-color;
+    font-weight: 500;
+    line-height: 2rem;
     text-align: left;
     cursor: pointer;
+    font-size: 1.1rem;
 
     &::after {
       position: absolute;
