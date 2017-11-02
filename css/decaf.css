@@ -5622,8 +5622,6 @@ h1 {
     font-size: 1rem; }
   .hero__feature-image {
     padding-bottom: 3em; }
-  .hero__cta:hover {
-    border-width: 2px; }
 
 .nav {
   padding: 2rem 0; }
@@ -5654,4 +5652,5 @@ h1 {
     cursor: pointer;
     background: transparent;
     color: #fff;
-    text-decoration: none; }
+    text-decoration: none;
+    border-width: 2px; }
