@@ -5522,40 +5522,43 @@ h1 {
 
 .companies {
   text-align: center;
-  margin: 0 0 5rem;
-  position: relative; }
+  position: relative;
+  padding-bottom: 5rem; }
+  .companies:before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    background-image: url(../assets/shapes-mobile.svg);
+    background-size: 480px;
+    background-position: top center;
+    background-repeat: repeat-y;
+    overflow: hidden; }
+    @media (min-width: 768px) {
+      .companies:before {
+        left: -10rem;
+        width: calc(100% + 20rem);
+        max-width: none;
+        background-image: url(../assets/shapes.svg);
+        background-size: 65%; } }
   .companies__grid {
     align-items: center;
     justify-content: center; }
-    @media (min-width: 768px) {
-      .companies__grid {
-        position: relative; } }
-    .companies__grid:before {
-      content: '';
-      position: absolute;
-      z-index: -1;
-      top: 0;
-      left: 0;
-      height: 100%;
-      width: 100%;
-      max-width: 100%;
-      margin: 0 auto;
-      background-image: url(../assets/shapes-mobile.svg);
-      background-size: 480px;
-      background-position: top center;
-      background-repeat: repeat-y;
-      overflow: hidden; }
-      @media (min-width: 768px) {
-        .companies__grid:before {
-          left: -10rem;
-          width: calc(100% + 20rem);
-          max-width: none;
-          background-image: url(../assets/shapes.svg);
-          background-size: cover; } }
   .companies__logo {
     max-height: 8rem;
     border: none !important;
     background: none !important; }
+    .companies__logo--padded {
+      padding: 1.25rem; }
+      .companies__logo--padded:hover {
+        padding: calc(1.25rem + 0.5rem) !important; }
+    .companies__logo:hover {
+      padding: 0.5rem; }
 
 .contact {
   text-align: center;
