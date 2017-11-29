@@ -5520,6 +5520,43 @@ h1 {
     padding: 0;
     transition: max-height .35s, padding 0s 0.24s, border-width 0s 0.24s; }
 
+.companies {
+  text-align: center;
+  margin: 0 0 5rem;
+  position: relative; }
+  .companies__grid {
+    align-items: center;
+    justify-content: center; }
+    @media (min-width: 768px) {
+      .companies__grid {
+        position: relative; } }
+    .companies__grid:before {
+      content: '';
+      position: absolute;
+      z-index: -1;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      max-width: 100%;
+      margin: 0 auto;
+      background-image: url(/assets/shapes-mobile.svg);
+      background-size: 480px;
+      background-position: top center;
+      background-repeat: repeat-y;
+      overflow: hidden; }
+      @media (min-width: 768px) {
+        .companies__grid:before {
+          left: -10rem;
+          width: calc(100% + 20rem);
+          max-width: none;
+          background-image: url(/assets/shapes.svg);
+          background-size: cover; } }
+  .companies__logo {
+    max-height: 8rem;
+    border: none !important;
+    background: none !important; }
+
 .contact {
   text-align: center;
   background: linear-gradient(to right top, #237EF1, #34D9F7);
