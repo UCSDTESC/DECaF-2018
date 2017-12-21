@@ -24,11 +24,9 @@ $logo-hover-padding: 0.5rem;
     overflow: hidden;
 
     @include media-breakpoint-up(md) {
-      left: -$bg-margin;
-      width: calc(100% + #{$bg-width});
       max-width: none;
       background-image: url(../assets/shapes.svg);
-      background-size: 65%;
+      background-size: 85%;
     }
   }
 

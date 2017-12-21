@@ -5541,11 +5541,9 @@ h1 {
     overflow: hidden; }
     @media (min-width: 768px) {
       .companies:before {
-        left: -10rem;
-        width: calc(100% + 20rem);
         max-width: none;
         background-image: url(../assets/shapes.svg);
-        background-size: 65%; } }
+        background-size: 85%; } }
   .companies__grid {
     align-items: center;
     justify-content: center; }
