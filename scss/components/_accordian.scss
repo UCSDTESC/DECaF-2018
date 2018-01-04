@@ -57,11 +57,14 @@
   &__content {
     max-height: 0;
     overflow: hidden;
-    border: 0 solid $decaf-dark-blue;
+    border: 0 solid $decaf-dark-green;
     border-radius: $border-radius;
     text-align: left;
     padding: 0;
     transition: max-height .35s, padding 0s 0.24s, border-width 0s 0.24s;
-  }
 
+    &--sponsor {
+      border-color: $decaf-dark-blue;
+    }
+  }
 }

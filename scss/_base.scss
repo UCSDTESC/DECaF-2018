@@ -8,9 +8,16 @@ $white: #fff;
 
 $decaf-dark-blue: #237EF1;
 $decaf-light-blue: #34D9F7;
+$decaf-dark-green: #58D1D9;
+$decaf-light-green: #6CE5AB;
 $tesc-blue: #004E74;
 
+$decaf-dark-yellow: #F17879;
+$decaf-light-yellow: #F6B745;
+
 $decaf-gradient: linear-gradient(to right top, $decaf-dark-blue, $decaf-light-blue);
+$decaf-student-gradient: linear-gradient(to right top, $decaf-dark-green, $decaf-light-green);
+$decaf-yellow-gradient: linear-gradient(to right top, $decaf-dark-yellow, $decaf-light-yellow);
 
 $link-active: $white;
 $link-inactive: transparentize($link-active, 0.2);

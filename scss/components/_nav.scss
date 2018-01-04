@@ -13,6 +13,14 @@
       color: $link-active;
       text-decoration: none;
     }
+
+    &--no-color {
+      color: inherit;
+
+      &:hover {
+        color: inherit;
+      }
+    }
   }
 
   &__link-item {

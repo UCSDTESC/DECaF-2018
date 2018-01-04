@@ -1,7 +1,12 @@
 .hero {
   width: 100%;
-  background: $decaf-gradient;
+  background: $decaf-student-gradient;
   color: $hero-font-color;
+
+  &--sponsor {
+    background: $decaf-gradient;
+    color: $hero-font-color;
+  }
 
   @include media-breakpoint-up(md) {
     min-height: 30rem;

@@ -1,6 +1,6 @@
 .contact {
   text-align: center;
-  background: $decaf-gradient;
+  background: $decaf-student-gradient;
   height: 18rem;
   position: relative;
 
@@ -14,8 +14,12 @@
     left: 0;
     background-image: url(../assets/contact-clip.svg);
     background-position: bottom;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
+  }
+
+  &--sponsor {
+    background: $decaf-gradient;
   }
 
   &__link {
