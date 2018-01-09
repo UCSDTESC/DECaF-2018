@@ -5514,7 +5514,7 @@ h1 {
   .accordian__content {
     max-height: 0;
     overflow: hidden;
-    border: 0 solid #58D1D9;
+    border: 0 solid #1fd46d;
     border-radius: 0.3rem;
     text-align: left;
     padding: 0;
@@ -5562,7 +5562,7 @@ h1 {
 
 .contact {
   text-align: center;
-  background: linear-gradient(to right top, #58D1D9, #6CE5AB);
+  background: linear-gradient(to right top, #1fd46d, #6CE5AB);
   height: 18rem;
   position: relative; }
   .contact:after {
@@ -5636,7 +5636,7 @@ h1 {
         color: #fff;
         text-decoration: none; }
     .event__header--secondary {
-      background: linear-gradient(to right top, #58D1D9, #6CE5AB); }
+      background: linear-gradient(to right top, #1fd46d, #6CE5AB); }
     .event__header--tertiary {
       background: linear-gradient(to right top, #F17879, #F6B745); }
   .event__date {
@@ -5660,7 +5660,7 @@ h1 {
     .event__host-link {
       color: #000; }
       .event__host-link:hover {
-        color: #58D1D9;
+        color: #1fd46d;
         text-decoration: none; }
 
 .faq {
@@ -5715,7 +5715,7 @@ h1 {
   margin-bottom: 1rem; }
 
 .hamburger__link-item--cta {
-  background-color: #58D1D9;
+  background-color: #1fd46d;
   border-radius: 0.3rem; }
 
 .hamburger__link-item--sponsor-cta {
@@ -5723,9 +5723,9 @@ h1 {
   border-radius: 0.3rem; }
 
 .hamburger__link {
-  color: #58D1D9; }
+  color: #1fd46d; }
   .hamburger__link:hover {
-    color: #58D1D9;
+    color: #1fd46d;
     text-decoration: none; }
   .hamburger__link--no-color {
     color: inherit; }
@@ -5740,7 +5740,7 @@ h1 {
 
 .hero {
   width: 100%;
-  background: linear-gradient(to right top, #58D1D9, #6CE5AB);
+  background: linear-gradient(to right top, #1fd46d, #6CE5AB);
   color: #fff; }
   .hero--sponsor {
     background: linear-gradient(to right top, #237EF1, #34D9F7);
@@ -5785,7 +5785,7 @@ h1 {
   background: #fff;
   border: 2px solid #fff;
   border-radius: 0.3rem;
-  color: #58D1D9;
+  color: #1fd46d;
   display: inline-block;
   transition: background 100ms linear, color 100ms linear; }
   .white-button:hover {
