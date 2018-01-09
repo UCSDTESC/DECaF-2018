@@ -34,6 +34,7 @@ $event-border-radius: 1rem;
       flex-direction: column;
       justify-content: center;
       color: $white;
+      padding: 0 1rem;
 
       &:hover {
         color: $white;
@@ -65,6 +66,7 @@ $event-border-radius: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 0 1rem;
   }
 
   &__host {
