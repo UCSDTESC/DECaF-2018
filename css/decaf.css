@@ -5560,6 +5560,22 @@ h1 {
     .companies__logo:hover {
       padding: 0.5rem; }
 
+.company-table {
+  font-size: 0.9rem;
+  padding: 2rem; }
+  .company-table th {
+    width: 25%;
+    border: none; }
+  .company-table tr:nth-child(2) td {
+    border: none; }
+  .company-table td {
+    border-color: #F5F8FA;
+    border-width: 2px;
+    vertical-align: middle; }
+  .company-table__header {
+    background-color: #F5F8FA;
+    color: #A4A8AC; }
+
 .contact {
   text-align: center;
   background: linear-gradient(to right top, #1fd46d, #6CE5AB);
@@ -5777,6 +5793,12 @@ h1 {
     margin-left: 2rem; }
   .nav__logo {
     height: 2rem; }
+
+.tabling {
+  margin: 5rem 0; }
+  .tabling__header {
+    margin-bottom: 2rem;
+    text-align: center; }
 
 .white-button {
   min-width: 10rem;
