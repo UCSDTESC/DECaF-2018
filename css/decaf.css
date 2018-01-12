@@ -5682,6 +5682,11 @@ h1 {
 .faq {
   text-align: center;
   margin: 0 0 5rem; }
+  .faq--student a {
+    color: #1fd46d; }
+    .faq--student a:hover {
+      color: #6CE5AB;
+      text-decoration: none; }
 
 .flo {
   margin: 5rem 0;
@@ -5769,9 +5774,9 @@ h1 {
     margin: 5rem 0 2rem; }
   .hero__location {
     text-transform: uppercase;
-    font-size: 1.2rem; }
+    font-size: 1.3rem; }
   .hero__date {
-    font-size: 1rem; }
+    font-size: 1.1rem; }
   .hero__feature-image {
     padding-bottom: 3em; }
 
