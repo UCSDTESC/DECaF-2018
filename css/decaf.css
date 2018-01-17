@@ -5459,9 +5459,6 @@ h1 {
 .about {
   margin: 5rem 0;
   text-align: center; }
-  @media (min-width: 768px) {
-    .about {
-      margin: 8rem 0; } }
   .about__header {
     margin-bottom: 2rem; }
   .about__contents {
@@ -5802,6 +5799,23 @@ h1 {
     font-size: 1.1rem; }
   .hero__feature-image {
     padding-bottom: 3em; }
+
+.map {
+  margin: 3rem 0;
+  text-align: center; }
+  .map__header {
+    margin-bottom: 2rem; }
+  .map__button {
+    text-align: center;
+    padding: 1px 1px 1rem 1px;
+    background: linear-gradient(to right top, #1fd46d, #6CE5AB);
+    color: #fff;
+    width: auto; }
+    .map__button:hover, .map__button:active {
+      color: #e6e6e6;
+      background: linear-gradient(to right top, #1fd46d, #6CE5AB) !important; }
+  .map__image {
+    margin: 0 auto 1rem; }
 
 .nav {
   padding: 2rem 0; }
