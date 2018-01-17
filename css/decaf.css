@@ -5565,7 +5565,9 @@ h1 {
   padding: 2rem; }
   .company-table th {
     width: 25%;
-    border: none; }
+    border: none;
+    vertical-align: middle;
+    font-weight: normal; }
   .company-table tr:nth-child(2) td {
     border: none; }
   .company-table td {
@@ -5687,6 +5689,27 @@ h1 {
     .faq--student a:hover {
       color: #6CE5AB;
       text-decoration: none; }
+
+.filter {
+  background-color: #fff;
+  width: 100%;
+  text-align: left;
+  color: #A4A8AC;
+  padding-left: 0.3rem; }
+  .filter:after {
+    position: absolute;
+    right: 0.5rem;
+    top: calc(50% - 0.2rem); }
+  .filter__badge {
+    background: linear-gradient(to right top, #1fd46d, #6CE5AB);
+    color: #fff; }
+  .filter__clear {
+    background: transparent;
+    margin-right: 0.1rem;
+    padding: 0 0.4rem; }
+    .filter__clear:hover, .filter__clear:focus {
+      background: linear-gradient(to right top, #f24141, #e76d52);
+      color: #fff; }
 
 .flo {
   margin: 5rem 0;

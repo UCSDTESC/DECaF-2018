@@ -362,9 +362,33 @@
         <table class="table company-table">
           <tr class="company-table__header">
             <th>Company</th>
-            <th>Industry</th>
-            <th>Position</th>
-            <th>Work Authorisation</th>
+            <th>
+              <div class="dropdown">
+                <button class="filter industry-filter btn dropdown-toggle" type="button" id="industryDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Industry
+                </button>
+                <div class="filter__options dropdown-menu industry-filter__options" aria-labelledby="industryDropdown">
+                </div>
+              </div>
+            </th>
+            <th>
+              <div class="dropdown">
+                <button class="filter position-filter btn dropdown-toggle" type="button" id="positionDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Position
+                </button>
+                <div class="filter__options dropdown-menu position-filter__options" aria-labelledby="industryDropdown">
+                </div>
+              </div>
+            </th>
+            <th>
+              <div class="dropdown">
+                <button class="filter authorisation-filter btn dropdown-toggle" type="button" id="workAuthDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Work Authorisation
+                </button>
+                <div class="filter__options dropdown-menu authorisation-filter__options" aria-labelledby="industryDropdown">
+                </div>
+              </div>
+            </th>
           </tr>
 
           <tr>
@@ -376,20 +400,20 @@
           <tr>
             <td>ID Tech</td>
             <td>Software, Hardware</td>
-            <td>Instructors, Assistant directors, Directors</td>
-            <td>U.S. Citizen, International Student Visa</td>
+            <td>Instructors, Assistant Directors, Directors</td>
+            <td>U.S. Citizen, International Student</td>
           </tr>
           <tr>
             <td>AppFolio</td>
             <td>Software, Hardware</td>
             <td>Full-time, Internship</td>
-            <td>U.S. Citizen, International Student Visa</td>
+            <td>U.S. Citizen, International Student</td>
           </tr>
           <tr>
             <td>Hunter Industries</td>
             <td>Materials &amp; Structural/Civil, Mechanical &amp; Aerospace, Software, Hardware</td>
             <td>Full-time, Internship</td>
-            <td>U.S. Citizen, International Student Visa</td>
+            <td>U.S. Citizen, International Student</td>
           </tr>
           <tr>
             <td>IBM</td>
@@ -407,7 +431,7 @@
             <td>Bentley Systems</td>
             <td>Software, Hardware</td>
             <td>Full-time, Internship</td>
-            <td>U.S. Citizen, International Student Visa</td>
+            <td>U.S. Citizen, International Student</td>
           </tr>
           <tr>
             <td>L3 Technologies</td>
@@ -425,25 +449,25 @@
             <td>ViaSat</td>
             <td>Materials &amp; Structural/Civil, Mechanical &amp; Aerospace, Software, Hardware</td>
             <td>Software and Systems Test Engineers, Hardware Engineer</td>
-            <td>U.S. Citizen, International Student Visa</td>
+            <td>U.S. Citizen, International Student</td>
           </tr>
           <tr>
             <td>Amazon A9</td>
             <td>Software, Hardware</td>
             <td>Internship</td>
-            <td>U.S. Citizen, International Student Visa</td>
+            <td>U.S. Citizen, International Student</td>
           </tr>
           <tr>
             <td>HP Inc</td>
             <td>Life &amp; Physical Science, Materials &amp; Structural/Civil, Mechanical &amp; Aerospace, Software, Hardware</td>
             <td>Full-time, Internship</td>
-            <td>U.S. Citizen, International Student Visa</td>
+            <td>U.S. Citizen, International Student</td>
           </tr>
           <tr>
             <td>Cubic Corporation</td>
             <td>Mechanical &amp; Aerospace, Software, Hardware</td>
             <td>Full-time, Part-time, Internship</td>
-            <td>U.S. Citizen, International Student Visa</td>
+            <td>U.S. Citizen, International Student</td>
           </tr>
           <tr>
             <td>Leidos</td>
@@ -455,19 +479,19 @@
             <td>PlayStation</td>
             <td>Software, Hardware</td>
             <td>Internship</td>
-            <td>U.S. Citizen, International Student Visa</td>
+            <td>U.S. Citizen, International Student</td>
           </tr>
           <tr>
             <td>Hughes Network Systems</td>
             <td>Software, Hardware</td>
             <td>Full-time, Internship</td>
-            <td>U.S. Citizen, International Student Visa</td>
+            <td>U.S. Citizen, International Student</td>
           </tr>
           <tr>
             <td>Oath (formerly Yahoo!)</td>
             <td>Software, Hardware</td>
             <td>Full-time, Part-time</td>
-            <td>U.S. Citizen, International Student Visa</td>
+            <td>U.S. Citizen, International Student</td>
           </tr>
           <tr>
             <td>Air Force Test Center</td>
@@ -479,7 +503,7 @@
             <td>Arista Networks</td>
             <td>Software, Hardware</td>
             <td>Full-time, Internship</td>
-            <td>U.S. Citizen, International Student Visa</td>
+            <td>U.S. Citizen, International Student</td>
           </tr>
           <tr>
             <td>Webroot</td>
@@ -497,7 +521,7 @@
             <td>Supplyframe</td>
             <td>Software, Hardware</td>
             <td>Full-time, Internship</td>
-            <td>U.S. Citizen, International Student Visa</td>
+            <td>U.S. Citizen, International Student</td>
           </tr>
           <tr>
             <td>412 Test Engineering Group</td>
@@ -533,7 +557,7 @@
             <td>Synopsys</td>
             <td>Software, Hardware</td>
             <td>Full-time, Internship</td>
-            <td>U.S. Citizen, International Student Visa</td>
+            <td>U.S. Citizen, International Student</td>
           </tr>
           <tr>
             <td>TrellisWare Technologies</td>
@@ -545,7 +569,7 @@
             <td>Peregrine Semiconductor</td>
             <td>Environment/Energy, Life &amp; Physical Science, Materials &amp; Structural/Civil, Mechanical &amp; Aerospace, Software, Hardware</td>
             <td>Full-time, Internship</td>
-            <td>U.S. Citizen, International Student Visa</td>
+            <td>U.S. Citizen, International Student</td>
           </tr>
           <tr>
             <td>ServiceNow</td>
@@ -569,13 +593,13 @@
             <td>Mitchell International</td>
             <td>Software, Hardware</td>
             <td>Full-time, Internship</td>
-            <td>U.S. Citizen, International Student Visa</td>
+            <td>U.S. Citizen, International Student</td>
           </tr>
           <tr>
             <td>Teradata</td>
             <td>Software, Hardware</td>
             <td>Full-time, Internship</td>
-            <td>U.S. Citizen, International Student Visa</td>
+            <td>U.S. Citizen, International Student</td>
           </tr>
           <tr>
             <td>Los Angeles Department of Water and Power</td>
@@ -599,13 +623,13 @@
             <td>Cognex Corporation</td>
             <td>Software, Hardware</td>
             <td>Full-time, Part-time, Internship</td>
-            <td>U.S. Citizen, International Student Visa</td>
+            <td>U.S. Citizen, International Student</td>
           </tr>
           <tr>
             <td>MagCanica</td>
             <td>Mechanical &amp; Aerospace, Software, Hardware</td>
             <td>Full-time, Part-time, Internship</td>
-            <td>U.S. Citizen, International Student Visa</td>
+            <td>U.S. Citizen, International Student</td>
           </tr>
           <tr>
             <td>Quartus Engineering Incorporated</td>
@@ -617,7 +641,7 @@
             <td>Aruba (a Hewlett Packard Enterprise Company)</td>
             <td>Software, Hardware</td>
             <td>Full-time, Internship</td>
-            <td>U.S. Citizen, International Student Visa</td>
+            <td>U.S. Citizen, International Student</td>
           </tr>
           <tr>
             <td>San Diego Composites</td>
@@ -629,13 +653,13 @@
             <td>Intel</td>
             <td>Software, Hardware</td>
             <td>Full-time, Internship</td>
-            <td>U.S. Citizen, International Student Visa</td>
+            <td>U.S. Citizen, International Student</td>
           </tr>
           <tr>
             <td>NewBlue</td>
             <td>Software, Hardware</td>
             <td>Full-time, Part-time, Internship</td>
-            <td>U.S. Citizen, International Student Visa</td>
+            <td>U.S. Citizen, International Student</td>
           </tr>
           <tr>
             <td>StemoniX</td>
@@ -708,5 +732,7 @@
       integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
       integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.4/js/solid.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.4/js/fontawesome.js"></script>
   </body>
 </html>
